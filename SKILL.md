@@ -1,9 +1,9 @@
 ---
 name: nlp-marketing-playbook
-description: NLP（貝特森+薩提爾）行銷知識庫，蒸餾自完整課程。適用於：影片/短影音/講稿產出、廣告文案、競品分析、爆款內容分析、行銷信件、SEO 優化、影片 performance 分析、留言分析、行銷數據綜合分析。當 agent 需要用 NLP 心理學原理優化行銷內容、分析受眾心理、設計多元化內容公式、或進行數據驅動的行銷決策時使用。
+description: NLP（貝特森+薩提爾）行銷知識庫，蒸餾自完整課程，包含 Singple 公司真實數據脈絡。適用於：影片/短影音/講稿產出、廣告文案、競品分析、爆款內容分析、行銷信件、SEO 優化、影片 performance 分析、留言分析、行銷數據分析。當 agent 需要用 NLP 心理學原理優化行銷內容、分析受眾、設計多元化內容公式、或進行數據驅動行銷決策時使用。
 ---
 
-# NLP 行銷 Playbook
+# NLP 行銷 Playbook — Singple 專用
 
 ## 核心原則
 
@@ -13,17 +13,46 @@ description: NLP（貝特森+薩提爾）行銷知識庫，蒸餾自完整課程
 
 ---
 
-## 快速索引——按任務讀取對應檔案
+## ⚡ 任務決策樹（每次執行前先判斷）
+
+```
+收到任務
+    │
+    ├─ 產出內容（影片/文案/講稿）
+    │   → 先讀 references/singple-context.md（受眾+Hook素材）
+    │   → 再讀 references/content-creation.md（多元公式）
+    │   → 判斷目標受眾 A/B/C → 選公式 → 確認 Hook 不重複近期
+    │
+    ├─ 分析競品/爆款
+    │   → 讀 references/competitive-analysis.md
+    │   → 讀 references/singple-context.md（競品對比）
+    │
+    ├─ 廣告文案/行銷信件
+    │   → 讀 references/copywriting.md（薩提爾四型+冰山）
+    │   → 讀 references/singple-context.md（最強Hook素材）
+    │
+    ├─ SEO 內容
+    │   → 讀 references/seo-strategy.md
+    │   → 讀 references/singple-context.md（L3觸點用於標題）
+    │
+    └─ 數據分析/優化建議
+        → 讀 references/data-analysis.md
+        → 查 daily-cache 或 DB 取最新數據
+        → 輸出「數據異常 → NLP診斷 → 3條行動建議」格式
+```
+
+---
+
+## 快速索引
 
 | 任務 | 讀取檔案 |
 |---|---|
-| Hook / 短影音 / 講稿 / 多元內容公式 | `references/content-creation.md` |
-| 廣告文案 / 行銷信件 / 受眾分析 | `references/copywriting.md` |
-| 競品分析 / 爆款內容分析 | `references/competitive-analysis.md` |
-| SEO 策略 / 關鍵字規劃 | `references/seo-strategy.md` |
-| 影片 performance / 留言分析 / 行銷數據 | `references/data-analysis.md` |
-
-需要全部時讀 `references/full-playbook.md`。
+| **⚠️ 任何任務都先讀** | `references/singple-context.md` |
+| Hook / 短影音 / 多元內容公式 | `references/content-creation.md` |
+| 廣告文案 / 行銷信件 | `references/copywriting.md` |
+| 競品分析 / 爆款分析 | `references/competitive-analysis.md` |
+| SEO 策略 | `references/seo-strategy.md` |
+| 影片 performance / 留言 / 數據 | `references/data-analysis.md` |
 
 ---
 
